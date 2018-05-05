@@ -19,10 +19,10 @@ $ git clone https://github.com/srdrmtl/Token-Authentication-Ornegi.git
 4. Projeyi çalıştırıp "http://localhost:63646/api/reservation" get methoduna ulaşmaya çalıştığımızda Authentication Hatası aldığımızı göreceksiniz.
 5. "http://localhost:63646/token" post methoduna aşağıdaki key'leri yazıp token'imizi alıyoruz.
 
-![N|Solid](http://resimag.com/93268fe9ba.png)
+![N|Solid](http://resimag.com/p1/93268fe9ba.png)
 
 6. Daha sonra "http://localhost:63646/api/reservation" get methoduna token kodumuzu başına bearer yazarak ekliyoruz ve aşağıdaki gördüğünüz gibi
 Authentication hatası almadan verileri görüntüleyebiliyoruz ( Veritabanında herhangi bir kayıt olmadığı için boş gözüküyor, isterseniz kendiniz kayıt ekleyerek
 deneyebilirsiniz.
 
-![N|Solid](http://resimag.com/c5dcd14e7f.png)
+![N|Solid](http://resimag.com/p1/c5dcd14e7f.png)
